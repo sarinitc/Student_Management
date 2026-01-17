@@ -15,7 +15,12 @@ public class Main {
 
 System.out.println("This is your ID"+ SM.getGrade());
 SM.displayInfo();
+        Bank_Account acc = new Bank_Account(101, "Sarin", 150);
 
+        acc.displayAccount();
+        acc.deposit(150);
+        acc.withdraw(150);
+        acc.displayAccount();
 
 
 }}
